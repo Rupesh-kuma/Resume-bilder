@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #ccd7e8; /* Light background */
+    position: sticky;         /* Sticks at the top during scroll */
+    top: 0;                   /* Anchors it to the top */
+    padding: 10px 0;          /* Inner spacing */
+    z-index: 1000;             
+}
+body{
+    background-color: #bdecf2;
+}
+.logo img{
+    width: 47%;
+}
+.navbar-nav{
+    gap: 13px;
+}
+.navbar-nav li a{
+    font-family: "Poppins", serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-nav li:hover a{
+    color: #ca9d37;
+}
+.navbar-nav li .active{
+    color: #ca9d37 !important;
+}
+.nav_btn{
+    background-color: #007bff;
+    padding: 10px 25px;
+    gap: 10;
+    display: flex;
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.background_img{
+    background: url("./image/header-bg.png"), no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 700px 
+}
+.banner_text_aside{
+    padding-top: 40%;
+}
+.banner_text_aside
